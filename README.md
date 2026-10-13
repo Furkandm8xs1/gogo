@@ -2,6 +2,10 @@
 
 Bu proje, Go'nun network servisleri ve eşzamanlılık özelliklerini kod yazarak öğrenmek için ilk adımdır.
 
+Go sözdizimi, goroutine/thread farkı, `stats` fonksiyonunun satır satır
+açıklaması ve kullanılan standart kütüphaneler için
+[GO_DIL_REHBERI.md](./GO_DIL_REHBERI.md) dosyasına bakın.
+
 ## Çalıştırma
 
 Docker ile:
