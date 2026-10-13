@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      PORT: "8080"
+      WORKERS: "3"
+      QUEUE_SIZE: "10"
+    init: true
